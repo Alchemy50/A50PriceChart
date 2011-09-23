@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* A50PriceChartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* A50PriceChartAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* A50PriceChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* A50PriceChartViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* A50PriceChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* A50PriceChartViewController.m */; };
+		7B4F9502142CC71400A2E247 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94E6142CC71400A2E247 /* ASIAuthenticationDialog.m */; };
+		7B4F9503142CC71400A2E247 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94E9142CC71400A2E247 /* ASIDataCompressor.m */; };
+		7B4F9504142CC71400A2E247 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94EB142CC71400A2E247 /* ASIDataDecompressor.m */; };
+		7B4F9505142CC71400A2E247 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94ED142CC71400A2E247 /* ASIDownloadCache.m */; };
+		7B4F9506142CC71400A2E247 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94EF142CC71400A2E247 /* ASIFormDataRequest.m */; };
+		7B4F9507142CC71400A2E247 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94F1142CC71400A2E247 /* ASIHTTPRequest.m */; };
+		7B4F9508142CC71400A2E247 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94F5142CC71400A2E247 /* ASIInputStream.m */; };
+		7B4F9509142CC71400A2E247 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94F7142CC71400A2E247 /* ASINetworkQueue.m */; };
+		7B4F950A142CC71400A2E247 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94FB142CC71400A2E247 /* Reachability.m */; };
+		7B4F950B142CC71400A2E247 /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94FD142CC71400A2E247 /* HTTPRequest.m */; };
+		7B4F950C142CC71400A2E247 /* APIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F94FF142CC71400A2E247 /* APIEngine.m */; };
+		7B4F950D142CC71400A2E247 /* GoogleDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F9501142CC71400A2E247 /* GoogleDataObject.m */; };
+		7B4F9534142CC7C500A2E247 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F9533142CC7C500A2E247 /* CFNetwork.framework */; };
+		7B4F9536142CC7C500A2E247 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F9535142CC7C500A2E247 /* CoreFoundation.framework */; };
+		7B4F9538142CC7C500A2E247 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F9537142CC7C500A2E247 /* MessageUI.framework */; };
+		7B4F953A142CC7C500A2E247 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F9539142CC7C500A2E247 /* MobileCoreServices.framework */; };
+		7B4F969F142CC81E00A2E247 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F969E142CC81E00A2E247 /* CoreLocation.framework */; };
+		7B4F96A1142CC81E00A2E247 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F96A0142CC81E00A2E247 /* libz.1.2.3.dylib */; };
+		7B4F96A3142CC82F00A2E247 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F96A2142CC82F00A2E247 /* SystemConfiguration.framework */; };
+		7B4F96AA142CC87E00A2E247 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F96A7142CC87E00A2E247 /* GraphView.m */; };
+		7B4F96AB142CC87E00A2E247 /* GraphBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F96A9142CC87E00A2E247 /* GraphBackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* A50PriceChartAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A50PriceChartAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* A50PriceChartAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A50PriceChartAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* A50PriceChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A50PriceChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* A50PriceChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = A50PriceChartViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* A50PriceChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A50PriceChartViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* A50PriceChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A50PriceChartViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* A50PriceChart_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A50PriceChart_Prefix.pch; sourceTree = "<group>"; };
+		7B4F94E5142CC71400A2E247 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		7B4F94E6142CC71400A2E247 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		7B4F94E7142CC71400A2E247 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		7B4F94E8142CC71400A2E247 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		7B4F94E9142CC71400A2E247 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		7B4F94EA142CC71400A2E247 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		7B4F94EB142CC71400A2E247 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		7B4F94EC142CC71400A2E247 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		7B4F94ED142CC71400A2E247 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		7B4F94EE142CC71400A2E247 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		7B4F94EF142CC71400A2E247 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		7B4F94F0142CC71400A2E247 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		7B4F94F1142CC71400A2E247 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		7B4F94F2142CC71400A2E247 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		7B4F94F3142CC71400A2E247 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		7B4F94F4142CC71400A2E247 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		7B4F94F5142CC71400A2E247 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		7B4F94F6142CC71400A2E247 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		7B4F94F7142CC71400A2E247 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		7B4F94F8142CC71400A2E247 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		7B4F94FA142CC71400A2E247 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7B4F94FB142CC71400A2E247 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7B4F94FC142CC71400A2E247 /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		7B4F94FD142CC71400A2E247 /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		7B4F94FE142CC71400A2E247 /* APIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEngine.h; sourceTree = "<group>"; };
+		7B4F94FF142CC71400A2E247 /* APIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIEngine.m; sourceTree = "<group>"; };
+		7B4F9500142CC71400A2E247 /* GoogleDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDataObject.h; sourceTree = "<group>"; };
+		7B4F9501142CC71400A2E247 /* GoogleDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDataObject.m; sourceTree = "<group>"; };
+		7B4F9533142CC7C500A2E247 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7B4F9535142CC7C500A2E247 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7B4F9537142CC7C500A2E247 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7B4F9539142CC7C500A2E247 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7B4F969E142CC81E00A2E247 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7B4F96A0142CC81E00A2E247 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		7B4F96A2142CC82F00A2E247 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B4F96A6142CC87E00A2E247 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		7B4F96A7142CC87E00A2E247 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		7B4F96A8142CC87E00A2E247 /* GraphBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBackgroundView.h; sourceTree = "<group>"; };
+		7B4F96A9142CC87E00A2E247 /* GraphBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBackgroundView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* A50PriceChart-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "A50PriceChart-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				7B4F9534142CC7C500A2E247 /* CFNetwork.framework in Frameworks */,
+				7B4F9536142CC7C500A2E247 /* CoreFoundation.framework in Frameworks */,
+				7B4F9538142CC7C500A2E247 /* MessageUI.framework in Frameworks */,
+				7B4F953A142CC7C500A2E247 /* MobileCoreServices.framework in Frameworks */,
+				7B4F969F142CC81E00A2E247 /* CoreLocation.framework in Frameworks */,
+				7B4F96A1142CC81E00A2E247 /* libz.1.2.3.dylib in Frameworks */,
+				7B4F96A3142CC82F00A2E247 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F96A6142CC87E00A2E247 /* GraphView.h */,
+				7B4F96A7142CC87E00A2E247 /* GraphView.m */,
+				7B4F96A8142CC87E00A2E247 /* GraphBackgroundView.h */,
+				7B4F96A9142CC87E00A2E247 /* GraphBackgroundView.m */,
+				1D3623240D0F684500981E51 /* A50PriceChartAppDelegate.h */,
+				1D3623250D0F684500981E51 /* A50PriceChartAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* A50PriceChartViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* A50PriceChartViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* A50PriceChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F94E3142CC71400A2E247 /* Net */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* A50PriceChart_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* A50PriceChartViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* A50PriceChart-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F9533142CC7C500A2E247 /* CFNetwork.framework */,
+				7B4F9535142CC7C500A2E247 /* CoreFoundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				7B4F9537142CC7C500A2E247 /* MessageUI.framework */,
+				7B4F9539142CC7C500A2E247 /* MobileCoreServices.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				7B4F969E142CC81E00A2E247 /* CoreLocation.framework */,
+				7B4F96A0142CC81E00A2E247 /* libz.1.2.3.dylib */,
+				7B4F96A2142CC82F00A2E247 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B4F94E3142CC71400A2E247 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F94FC142CC71400A2E247 /* HTTPRequest.h */,
+				7B4F94FD142CC71400A2E247 /* HTTPRequest.m */,
+				7B4F94FE142CC71400A2E247 /* APIEngine.h */,
+				7B4F94FF142CC71400A2E247 /* APIEngine.m */,
+				7B4F9500142CC71400A2E247 /* GoogleDataObject.h */,
+				7B4F9501142CC71400A2E247 /* GoogleDataObject.m */,
+				7B4F94E4142CC71400A2E247 /* asi */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		7B4F94E4142CC71400A2E247 /* asi */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F94F9142CC71400A2E247 /* reachability */,
+				7B4F94E5142CC71400A2E247 /* ASIAuthenticationDialog.h */,
+				7B4F94E6142CC71400A2E247 /* ASIAuthenticationDialog.m */,
+				7B4F94E7142CC71400A2E247 /* ASICacheDelegate.h */,
+				7B4F94E8142CC71400A2E247 /* ASIDataCompressor.h */,
+				7B4F94E9142CC71400A2E247 /* ASIDataCompressor.m */,
+				7B4F94EA142CC71400A2E247 /* ASIDataDecompressor.h */,
+				7B4F94EB142CC71400A2E247 /* ASIDataDecompressor.m */,
+				7B4F94EC142CC71400A2E247 /* ASIDownloadCache.h */,
+				7B4F94ED142CC71400A2E247 /* ASIDownloadCache.m */,
+				7B4F94EE142CC71400A2E247 /* ASIFormDataRequest.h */,
+				7B4F94EF142CC71400A2E247 /* ASIFormDataRequest.m */,
+				7B4F94F0142CC71400A2E247 /* ASIHTTPRequest.h */,
+				7B4F94F1142CC71400A2E247 /* ASIHTTPRequest.m */,
+				7B4F94F2142CC71400A2E247 /* ASIHTTPRequestConfig.h */,
+				7B4F94F3142CC71400A2E247 /* ASIHTTPRequestDelegate.h */,
+				7B4F94F4142CC71400A2E247 /* ASIInputStream.h */,
+				7B4F94F5142CC71400A2E247 /* ASIInputStream.m */,
+				7B4F94F6142CC71400A2E247 /* ASINetworkQueue.h */,
+				7B4F94F7142CC71400A2E247 /* ASINetworkQueue.m */,
+				7B4F94F8142CC71400A2E247 /* ASIProgressDelegate.h */,
+			);
+			name = asi;
+			sourceTree = "<group>";
+		};
+		7B4F94F9142CC71400A2E247 /* reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F94FA142CC71400A2E247 /* Reachability.h */,
+				7B4F94FB142CC71400A2E247 /* Reachability.m */,
+			);
+			name = reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* A50PriceChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "A50PriceChart" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A50PriceChart;
+			productName = A50PriceChart;
+			productReference = 1D6058910D05DD3D006BFB54 /* A50PriceChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "A50PriceChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* A50PriceChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* A50PriceChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* A50PriceChartAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* A50PriceChartViewController.m in Sources */,
+				7B4F9502142CC71400A2E247 /* ASIAuthenticationDialog.m in Sources */,
+				7B4F9503142CC71400A2E247 /* ASIDataCompressor.m in Sources */,
+				7B4F9504142CC71400A2E247 /* ASIDataDecompressor.m in Sources */,
+				7B4F9505142CC71400A2E247 /* ASIDownloadCache.m in Sources */,
+				7B4F9506142CC71400A2E247 /* ASIFormDataRequest.m in Sources */,
+				7B4F9507142CC71400A2E247 /* ASIHTTPRequest.m in Sources */,
+				7B4F9508142CC71400A2E247 /* ASIInputStream.m in Sources */,
+				7B4F9509142CC71400A2E247 /* ASINetworkQueue.m in Sources */,
+				7B4F950A142CC71400A2E247 /* Reachability.m in Sources */,
+				7B4F950B142CC71400A2E247 /* HTTPRequest.m in Sources */,
+				7B4F950C142CC71400A2E247 /* APIEngine.m in Sources */,
+				7B4F950D142CC71400A2E247 /* GoogleDataObject.m in Sources */,
+				7B4F96AA142CC87E00A2E247 /* GraphView.m in Sources */,
+				7B4F96AB142CC87E00A2E247 /* GraphBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = A50PriceChart_Prefix.pch;
+				INFOPLIST_FILE = "A50PriceChart-Info.plist";
+				PRODUCT_NAME = A50PriceChart;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = A50PriceChart_Prefix.pch;
+				INFOPLIST_FILE = "A50PriceChart-Info.plist";
+				PRODUCT_NAME = A50PriceChart;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "A50PriceChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "A50PriceChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

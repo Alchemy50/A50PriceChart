@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'A50PriceChart' target in the 'A50PriceChart' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

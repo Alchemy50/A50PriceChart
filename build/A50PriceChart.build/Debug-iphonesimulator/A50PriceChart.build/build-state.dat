@@ -1,0 +1,862 @@
+TA50PriceChart
+v7
+r0
+t338479323.350893
+cCheck dependencies
+cProcessInfoPlistFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist A50PriceChart-Info.plist
+cCompileXIB /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+cCompileXIB /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+cProcessPCH /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch A50PriceChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o /Users/jklobe/Desktop/A50PriceChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o /Users/jklobe/Desktop/A50PriceChart/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o /Users/jklobe/Desktop/A50PriceChart/APIEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphView.o /Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphBackgroundView.o /Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart normal i386
+cGenerateDSYMFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+cTouch /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+
+N/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+c000000004E7C8E740000000000003EF9
+t1316785780
+s16121
+
+N/Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch
+c000000004E7C8E7400000000000000C3
+t1316785780
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/APIEngine.h
+c000000004E7C901F00000000000003D6
+t1316786207
+s982
+i"HTTPRequest.h"
+i<Foundation/Foundation.h>
+i"ASINetworkQueue.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/APIEngine.m
+c000000004E7C90270000000000000CB0
+t1316786215
+s3248
+i"APIEngine.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.h
+c000000004E4A80CD0000000000000453
+t1313505485
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m
+c000000004E4A80CD0000000000003DED
+t1313505485
+s15853
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASICacheDelegate.h
+c000000004E4A80CD00000000000011CE
+t1313505485
+s4558
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.h
+c000000004E4A80CD000000000000072C
+t1313505485
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m
+c000000004E4A80CD0000000000001AAE
+t1313505485
+s6830
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.h
+c000000004E4A80CD00000000000006A3
+t1313505485
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m
+c000000004E4A80CD0000000000001969
+t1313505485
+s6505
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.h
+c000000004E4A80CD0000000000000804
+t1313505485
+s2052
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m
+c000000004E4A80CD0000000000004161
+t1313505485
+s16737
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.h
+c000000004E4A80CD0000000000000A6D
+t1313505485
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m
+c000000004E7C90160000000000002BEA
+t1316786198
+s11242
+i"ASIFormDataRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.h
+c000000004E4A80CD000000000000A9CB
+t1313505485
+s43467
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m
+c000000004E7C901B0000000000028381
+t1316786203
+s164737
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequestConfig.h
+c000000004E4A80CD00000000000003B0
+t1313505485
+s944
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequestDelegate.h
+c000000004E4A80CD000000000000063E
+t1313505485
+s1598
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.h
+c000000004E4A80CD00000000000003C9
+t1313505485
+s969
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m
+c000000004E4A80CD0000000000000C14
+t1313505485
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.h
+c000000004E4A80CD000000000000120D
+t1313505485
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m
+c000000004E4A80CD0000000000002C8D
+t1313505485
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIProgressDelegate.h
+c000000004E4A80CD0000000000000678
+t1313505485
+s1656
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.h
+c000000004E7C8E740000000000000201
+t1316785780
+s513
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m
+c000000004E7C8E740000000000000827
+t1316785780
+s2087
+i"A50PriceChartAppDelegate.h"
+i"A50PriceChartViewController.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.h
+c000000004E7C910800000000000001D5
+t1316786440
+s469
+i<UIKit/UIKit.h>
+i"APIEngine.h"
+i"GraphView.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m
+c000000004E7C91590000000000000AA5
+t1316786521
+s2725
+i"A50PriceChartViewController.h"
+i"GoogleDataObject.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.h
+c000000004E662B270000000000000167
+t1315318567
+s359
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m
+c000000004E662B27000000000000053B
+t1315318567
+s1339
+i"GraphBackgroundView.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.h
+c000000004E662B27000000000000062F
+t1315318567
+s1583
+i<Foundation/Foundation.h>
+i"GraphBackgroundView.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m
+c000000004E7C91130000000000003FE4
+t1316786451
+s16356
+i"GraphView.h"
+i"GoogleDataObject.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.h
+c000000004E72398A00000000000002E4
+t1316108682
+s740
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m
+c000000004E77BDB4000000000000031B
+t1316470196
+s795
+i"GoogleDataObject.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.h
+c000000004E78FD46000000000000021A
+t1316552006
+s538
+i<Foundation/Foundation.h>
+i"ASIFormDataRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m
+c000000004E78FD4B000000000000062F
+t1316552011
+s1583
+i"HTTPRequest.h"
+i"ASIDownloadCache.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+c000000004E7C8E740000000000004D45
+t1316785780
+s19781
+
+N/Users/jklobe/Desktop/A50PriceChart/Reachability.h
+c000000004E4A80CD0000000000001D0E
+t1313505485
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Reachability.m
+c000000004E4A80CD0000000000005E0C
+t1313505485
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChart.LinkFileList
+c000000004E7C9100000000000000097A
+t1316786432
+s2426
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o
+t1316786440
+s52416
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o
+t1316786521
+s51720
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o
+t1316786215
+s61068
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o
+t1316786098
+s108412
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o
+t1316786098
+s23356
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o
+t1316786098
+s23316
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o
+t1316786098
+s60652
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o
+t1316786198
+s47432
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o
+t1316786204
+s487248
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o
+t1316786098
+s28840
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o
+t1316786098
+s61240
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o
+t1316786098
+s15468
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphBackgroundView.o
+t1316786432
+s43804
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphView.o
+t1316786451
+s90528
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o
+t1316786098
+s23924
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o
+t1316786098
+s33704
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o
+t1316786097
+s6300
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+t1316786521
+s238
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM
+t1316786521
+s102
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+t1316786521
+s429092
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChartViewController.nib
+t1316786096
+s1232
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist
+t1316786094
+s822
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/MainWindow.nib
+t1316786096
+s1694
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/PkgInfo
+t1316786094
+s8
+
+N/Users/jklobe/Desktop/A50PriceChart/main.m
+c000000004E7C8E74000000000000016D
+t1316785780
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch
+t1316786097
+s15809968
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54CF5900000000000004CF
+t1297403737
+s1231
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004D54CECB000000000023EB70
+t1297403595
+s2354032
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CEB40000000000000AB3
+t1297403572
+s2739
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D54DEBC00000000000778F0
+t1297407676
+s489712
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D54DEB600000000000001D0
+t1297407670
+s464
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DE869000000000009B020
+t1297999977
+s634912
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004D54D0BA00000000000000EB
+t1297404090
+s235
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5040000000000001533
+t1297401092
+s5427
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C50400000000000008F5
+t1297401092
+s2293
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D54C504000000000000307F
+t1297401092
+s12415
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D54D0E60000000000006BAC
+t1297404134
+s27564
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54D0E6000000000000638F
+t1297404134
+s25487
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D54D0EB0000000000005ACF
+t1297404139
+s23247
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/zlib.h
+c000000004D54CB4600000000000102A5
+t1297402694
+s66213
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libz.1.2.3.dylib
+c000000004D54CB4700000000000123C0
+t1297402695
+s74688
+
+NA50PriceChart-Info.plist
+c000000004E7C8E7400000000000004D6
+t1316785780
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338479323#338479323#0(0"0(0#1#0"8631344096#0"0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479240.568552
+e338479240.618964
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m338479240#338479240#0(0"0(0#0#70"/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m8627479360#2045"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479321.246048
+e338479321.331382
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m338479321#338479321#0(0"0(0#0#73"/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m8630067264#2051"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o /Users/jklobe/Desktop/A50PriceChart/APIEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479015.338323
+e338479015.426427
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o
+x/Users/jklobe/Desktop/A50PriceChart/APIEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:134: warning: incomplete implementation of class 'APIEngine'
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:134: warning: method definition for '-requestImage:withReturnObject:' not found
+lSLF07#2@55"Compile /Users/jklobe/Desktop/A50PriceChart/APIEngine.m338479015#338479015#0(237"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:134: warning: incomplete implementation of class 'APIEngine'/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:134: warning: method definition for '-requestImage:withReturnObject:' not found2(22@46"Incomplete implementation of class 'APIEngine'338479015#0#109#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338479015#134#0#134#0#38"incomplete implementation of class '*'0(22@65"Method definition for '-requestImage:withReturnObject:' not found338479015#109#128#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338479015#134#0#134#0#35"method definition for '*' not found0(0#0#47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m8630128320#2007"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/APIEngine.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.886303
+e338478898.006827
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m338478897#338478898#0(0"0(0#0#61"/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m8625745472#2035"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.954456
+e338478898.012277
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m338478897#338478898#0(0"0(0#0#55"/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m8623844256#2023"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.955356
+e338478898.011517
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m338478897#338478898#0(0"0(0#0#57"/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m8622738880#2027"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.955955
+e338478898.051216
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m338478897#338478898#0(0"0(0#0#54"/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m8622100256#2021"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478998.765444
+e338478998.879819
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m338478998#338478998#0(0"0(0#0#56"/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m8626039264#2025"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479003.563422
+e338479004.319580
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m338479003#338479004#0(0"0(0#0#52"/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m8626880480#2017"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.012328
+e338478898.068767
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m338478898#338478898#0(0"0(0#0#52"/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m8609063008#2017"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.051292
+e338478898.141442
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o
+x/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m338478898#338478898#0(0"0(0#0#53"/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m8606276960#2019"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.141514
+e338478898.185205
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o
+x/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m338478898#338478898#0(0"0(0#0#54"/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m8595776736#2021"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphBackgroundView.o /Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479232.366687
+e338479232.428503
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphBackgroundView.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m338479232#338479232#0(0"0(0#0#65"/Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m8631843296#2035"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/GraphBackgroundView.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphBackgroundView.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphView.o /Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338479251.316298
+e338479251.458971
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphView.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m: In function '-[GraphView drawRect:]':
+o/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: 'GraphView' may not respond to '-drawRightSection'
+o/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: (Messages without a matching method signature
+o/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: will be assumed to return 'id' and accept
+o/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: '...' as arguments.)
+lSLF07#2@63"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m338479251#338479251#0(535"/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m: In function '-[GraphView drawRect:]':/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: 'GraphView' may not respond to '-drawRightSection'/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: (Messages without a matching method signature/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: will be assumed to return 'id' and accept/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m:257: warning: '...' as arguments.)2(22@50"'GraphView' may not respond to '-drawRightSection'338479251#95#121#0(6@55"/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m338479251#257#0#257#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338479251#216#116#0(6@55"/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m338479251#257#0#257#0#0"0(0#0#55"/Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m8627332736#2015"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/GraphView.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GraphView.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.083424
+e338478898.125445
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m338478898#338478898#0(0"0(0#0#49"/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m8615272160#2011"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o /Users/jklobe/Desktop/A50PriceChart/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.068847
+e338478898.224195
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o
+x/Users/jklobe/Desktop/A50PriceChart/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jklobe/Desktop/A50PriceChart/Reachability.m338478898#338478898#0(0"0(0#0#50"/Users/jklobe/Desktop/A50PriceChart/Reachability.m8622119072#2013"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Reachability.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o /Users/jklobe/Desktop/A50PriceChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.867745
+e338478897.954383
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o
+x/Users/jklobe/Desktop/A50PriceChart/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jklobe/Desktop/A50PriceChart/main.m338478897#338478897#0(0"0(0#0#42"/Users/jklobe/Desktop/A50PriceChart/main.m8623164960#1997"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/main.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+s338478894.872863
+e338478896.708830
+r1
+xCompileXIB
+x/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+lSLF07#2@42"CompileXIB A50PriceChartViewController.xib338478894#338478896#0(0"0(0#0#67"/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib8627305504#597"    cd /Users/jklobe/Desktop/A50PriceChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChartViewController.nib /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib --sdk /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+s338478894.852440
+e338478896.708659
+r1
+xCompileXIB
+x/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338478894#338478896#0(0"0(0#0#50"/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib8620803072#563"    cd /Users/jklobe/Desktop/A50PriceChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/MainWindow.nib /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib --sdk /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+s338479321.374184
+e338479321.401959
+r1
+xGenerateDSYMFile
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/A50PriceChart.app.dSYM build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart338479321#338479321#0(0"0(0#0#95"/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart8626825856#389"    cd /Users/jklobe/Desktop/A50PriceChart    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/usr/bin/dsymutil /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart -o /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM0#
+
+CLd /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart normal i386
+s338479321.331447
+e338479321.374117
+r1
+xLd
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+xnormal
+xi386
+lSLF07#2@100"Link /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart338479321#338479321#0(0"0(0#0#0"8630228128#1074"    cd /Users/jklobe/Desktop/A50PriceChart    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -filelist /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChart.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework CoreFoundation -framework MessageUI -framework MobileCoreServices -framework CoreLocation -lz.1.2.3 -framework SystemConfiguration -o /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart0#
+
+CProcessInfoPlistFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist A50PriceChart-Info.plist
+s338478894.849017
+e338478894.852380
+r1
+xProcessInfoPlistFile
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist
+xA50PriceChart-Info.plist
+lSLF07#2@32"Process A50PriceChart-Info.plist338478894#338478894#0(0"0(0#0#60"/Users/jklobe/Desktop/A50PriceChart/A50PriceChart-Info.plist8623405760#486"    cd /Users/jklobe/Desktop/A50PriceChart    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility A50PriceChart-Info.plist -genpkginfo /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist0#
+
+CProcessPCH /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch A50PriceChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478896.708906
+e338478897.867671
+r1
+xProcessPCH
+x/var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch
+xA50PriceChart_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile A50PriceChart_Prefix.pch338478896#338478897#0(0"0(0#0#60"/Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch8622854624#1886"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -c /Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch -o /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch0#
+
+CTouch /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+s338479321.402018
+e338479321.403421
+r1
+xTouch
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+lSLF07#2@87"Touch /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app338479321#338479321#0(0"0(0#0#0"8624477024#276"    cd /Users/jklobe/Desktop/A50PriceChart    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app0#
+

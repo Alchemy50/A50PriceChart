@@ -1,0 +1,931 @@
+TA50PriceChart
+v7
+r0
+t338478898.553043
+cCheck dependencies
+cProcessInfoPlistFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist A50PriceChart-Info.plist
+cCompileXIB /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+cCompileXIB /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+cProcessPCH /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch A50PriceChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o /Users/jklobe/Desktop/A50PriceChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o /Users/jklobe/Desktop/A50PriceChart/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o /Users/jklobe/Desktop/A50PriceChart/APIEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+c000000004E7C8E740000000000003EF9
+t1316785780
+s16121
+
+N/Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch
+c000000004E7C8E7400000000000000C3
+t1316785780
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/APIEngine.h
+c000000004E7C8FA500000000000003EC
+t1316786085
+s1004
+i"HTTPRequest.h"
+i<Foundation/Foundation.h>
+i"ASINetworkQueue.h"
+i<YAJL/YAJL.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/APIEngine.m
+c000000004E7C8FAE0000000000000D28
+t1316786094
+s3368
+i"APIEngine.h"
+i"SBJSON.h"
+i"Utils.h"
+i<YAJL/YAJL.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.h
+c000000004E4A80CD0000000000000453
+t1313505485
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m
+c000000004E4A80CD0000000000003DED
+t1313505485
+s15853
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASICacheDelegate.h
+c000000004E4A80CD00000000000011CE
+t1313505485
+s4558
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.h
+c000000004E4A80CD000000000000072C
+t1313505485
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m
+c000000004E4A80CD0000000000001AAE
+t1313505485
+s6830
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.h
+c000000004E4A80CD00000000000006A3
+t1313505485
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m
+c000000004E4A80CD0000000000001969
+t1313505485
+s6505
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.h
+c000000004E4A80CD0000000000000804
+t1313505485
+s2052
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m
+c000000004E4A80CD0000000000004161
+t1313505485
+s16737
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.h
+c000000004E4A80CD0000000000000A6D
+t1313505485
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m
+c000000004E7904FA0000000000002BFC
+t1316553978
+s11260
+i"ASIFormDataRequest.h"
+i"Utils.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.h
+c000000004E4A80CD000000000000A9CB
+t1313505485
+s43467
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m
+c000000004E7904FD0000000000028393
+t1316553981
+s164755
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+i"Utils.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequestConfig.h
+c000000004E4A80CD00000000000003B0
+t1313505485
+s944
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequestDelegate.h
+c000000004E4A80CD000000000000063E
+t1313505485
+s1598
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.h
+c000000004E4A80CD00000000000003C9
+t1313505485
+s969
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m
+c000000004E4A80CD0000000000000C14
+t1313505485
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.h
+c000000004E4A80CD000000000000120D
+t1313505485
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m
+c000000004E4A80CD0000000000002C8D
+t1313505485
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/ASIProgressDelegate.h
+c000000004E4A80CD0000000000000678
+t1313505485
+s1656
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.h
+c000000004E7C8E740000000000000201
+t1316785780
+s513
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m
+c000000004E7C8E740000000000000827
+t1316785780
+s2087
+i"A50PriceChartAppDelegate.h"
+i"A50PriceChartViewController.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.h
+c000000004E7C8E7400000000000000FE
+t1316785780
+s254
+i<UIKit/UIKit.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m
+c000000004E7C8E74000000000000056E
+t1316785780
+s1390
+i"A50PriceChartViewController.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.h
+c000000004E72398A00000000000002E4
+t1316108682
+s740
+i<Foundation/Foundation.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m
+c000000004E77BDB4000000000000031B
+t1316470196
+s795
+i"GoogleDataObject.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.h
+c000000004E78FD46000000000000021A
+t1316552006
+s538
+i<Foundation/Foundation.h>
+i"ASIFormDataRequest.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m
+c000000004E78FD4B000000000000062F
+t1316552011
+s1583
+i"HTTPRequest.h"
+i"ASIDownloadCache.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+c000000004E7C8E740000000000004D45
+t1316785780
+s19781
+
+N/Users/jklobe/Desktop/A50PriceChart/Reachability.h
+c000000004E4A80CD0000000000001D0E
+t1313505485
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jklobe/Desktop/A50PriceChart/Reachability.m
+c000000004E4A80CD0000000000005E0C
+t1313505485
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChart.LinkFileList
+c000000004E7C8FAE0000000000000860
+t1316786094
+s2144
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o
+t1316786097
+s50804
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o
+t1316786097
+s38612
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o
+t1316786098
+s108412
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o
+t1316786098
+s23356
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o
+t1316786098
+s23316
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o
+t1316786098
+s60652
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o
+t1316786098
+s28840
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o
+t1316786098
+s61240
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o
+t1316786098
+s15468
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o
+t1316786098
+s23924
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o
+t1316786098
+s33704
+
+N/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o
+t1316786097
+s6300
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+t2
+s0
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChartViewController.nib
+t1316786096
+s1232
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist
+t1316786094
+s822
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/MainWindow.nib
+t1316786096
+s1694
+
+N/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/PkgInfo
+t1316786094
+s8
+
+N/Users/jklobe/Desktop/A50PriceChart/main.m
+c000000004E7C8E74000000000000016D
+t1316785780
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch
+t1316786097
+s15809968
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54CF5900000000000004CF
+t1297403737
+s1231
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CEB40000000000000AB3
+t1297403572
+s2739
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D54DEB600000000000001D0
+t1297407670
+s464
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004D54D0BA00000000000000EB
+t1297404090
+s235
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5040000000000001533
+t1297401092
+s5427
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C50400000000000008F5
+t1297401092
+s2293
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D54C504000000000000307F
+t1297401092
+s12415
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D54D0E60000000000006BAC
+t1297404134
+s27564
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54D0E6000000000000638F
+t1297404134
+s25487
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D54D0EB0000000000005ACF
+t1297404139
+s23247
+
+N/xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/zlib.h
+c000000004D54CB4600000000000102A5
+t1297402694
+s66213
+
+NA50PriceChart-Info.plist
+c000000004E7C8E7400000000000004D6
+t1316785780
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338478894#338478894#0(0"0(0#1#0"8623231520#0"0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.885199
+e338478897.955197
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m338478897#338478897#0(0"0(0#0#70"/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m8622673888#2045"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartAppDelegate.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartAppDelegate.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.885790
+e338478897.955302
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o
+x/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m338478897#338478897#0(0"0(0#0#73"/Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m8626903520#2051"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Classes/A50PriceChartViewController.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/A50PriceChartViewController.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o /Users/jklobe/Desktop/A50PriceChart/APIEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.125520
+e338478898.173184
+r0
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o
+x/Users/jklobe/Desktop/A50PriceChart/APIEngine.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jklobe/Desktop/A50PriceChart/APIEngine.m:2:
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.h:9:22: error: YAJL/YAJL.h: No such file or directory
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:3:19: error: SBJSON.h: No such file or directory
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:4:18: error: Utils.h: No such file or directory
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m: In function '-[APIEngine requestFailed:]':
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: 'Utils' undeclared (first use in this function)
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: (Each undeclared identifier is reported only once
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: for each function it appears in.)
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m: At top level:
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:137: warning: incomplete implementation of class 'APIEngine'
+o/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:137: warning: method definition for '-requestImage:withReturnObject:' not found
+o{standard input}:565:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:565:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:558:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"
+o{standard input}:558:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"
+o{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:537:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"
+o{standard input}:537:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"
+o{standard input}:529:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:526:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"
+o{standard input}:526:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression
+o{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"
+o{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:496:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"
+o{standard input}:496:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:489:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"
+o{standard input}:489:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:481:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"
+o{standard input}:481:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:478:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"
+o{standard input}:478:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression
+o{standard input}:465:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"
+o{standard input}:465:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:459:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:459:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:445:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"
+o{standard input}:445:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:439:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:439:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:425:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"
+o{standard input}:425:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:418:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:418:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:403:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"
+o{standard input}:403:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:397:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:397:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:388:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:388:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"
+o{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"
+o{standard input}:371:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:364:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"
+o{standard input}:364:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:354:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"
+o{standard input}:354:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:330:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000004$pb"
+o{standard input}:330:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:321:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:321:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:258:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:258:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:250:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:250:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:243:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:243:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:240:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000003$pb"
+o{standard input}:240:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:211:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
+o{standard input}:211:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:204:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" minus "L00000000002$pb"
+o{standard input}:204:symbol: "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:196:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:196:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:187:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:187:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:185:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:185:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:177:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:168:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:168:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:157:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"
+o{standard input}:157:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"
+o{standard input}:154:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:144:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:144:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:140:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"
+o{standard input}:140:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:96:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:96:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:90:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:90:symbol: "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:66:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:66:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:56:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:56:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:52:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:52:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+lSLF07#2@55"Compile /Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478898#338478898#0(15333"In file included from /Users/jklobe/Desktop/A50PriceChart/APIEngine.m:2:/Users/jklobe/Desktop/A50PriceChart/APIEngine.h:9:22: error: YAJL/YAJL.h: No such file or directory/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:3:19: error: SBJSON.h: No such file or directory/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:4:18: error: Utils.h: No such file or directory/Users/jklobe/Desktop/A50PriceChart/APIEngine.m: In function '-[APIEngine requestFailed:]':/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: 'Utils' undeclared (first use in this function)/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: (Each undeclared identifier is reported only once/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:123: error: for each function it appears in.)/Users/jklobe/Desktop/A50PriceChart/APIEngine.m: At top level:/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:137: warning: incomplete implementation of class 'APIEngine'/Users/jklobe/Desktop/A50PriceChart/APIEngine.m:137: warning: method definition for '-requestImage:withReturnObject:' not found{standard input}:565:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:565:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:558:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"{standard input}:558:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"{standard input}:544:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:537:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"{standard input}:537:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"{standard input}:529:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:526:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"{standard input}:526:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000004$pb"{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:496:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000004$pb"{standard input}:496:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:489:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"{standard input}:489:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:481:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"{standard input}:481:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:478:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000004$pb"{standard input}:478:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression{standard input}:465:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"{standard input}:465:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:459:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:459:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:445:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"{standard input}:445:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:439:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:439:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:425:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000004$pb"{standard input}:425:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:418:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:418:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:403:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"{standard input}:403:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:397:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:397:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:388:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:388:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:377:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000004$pb"{standard input}:377:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"{standard input}:371:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:364:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000004$pb"{standard input}:364:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:354:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000004$pb"{standard input}:354:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:330:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000004$pb"{standard input}:330:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:321:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" minus "L00000000004$pb"{standard input}:321:symbol: "L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:258:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:258:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:250:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:250:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:243:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:243:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:240:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000003$pb"{standard input}:240:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:211:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:211:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:204:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" minus "L00000000002$pb"{standard input}:204:symbol: "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:196:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:196:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:187:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:187:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:185:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:185:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:177:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:177:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:168:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:168:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:157:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000002$pb"{standard input}:157:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:154:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"{standard input}:154:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:144:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:144:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:140:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"{standard input}:140:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:96:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:96:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:90:non-relocatable subtraction expression, "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" minus "L00000000001$pb"{standard input}:90:symbol: "L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:75:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:75:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:66:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:66:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:56:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:56:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:52:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:52:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_APIEngine.networkQueue$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_APIEngine.delegate$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_237(4@38"YAJL/YAJL.h: No such file or directory338478898#73#100#2(7@69"In file included from /Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478898#18446744073709551615#0#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#2#0#2#0#0"0(13@89"YAJL/YAJL.h: No such file or directory in /Users/jklobe/Desktop/A50PriceChart/APIEngine.h338478898#18446744073709551615#0#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.h338478885#9#0#9#0#0"0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.h338478885#9#0#9#0#28"*: No such file or directory0(4@35"SBJSON.h: No such file or directory338478898#173#97#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#3#0#3#0#28"*: No such file or directory0(4@34"Utils.h: No such file or directory338478898#270#96#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#4#0#4#0#28"*: No such file or directory0(4@47"'Utils' undeclared (first use in this function)338478898#458#108#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#123#0#123#0#43"'*' undeclared (first use in this function)0(23@13"At top level:338478898#770#63#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#0#0#0#0#0"0(22@46"Incomplete implementation of class 'APIEngine'338478898#833#109#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#137#0#137#0#38"incomplete implementation of class '*'0(22@65"Method definition for '-requestImage:withReturnObject:' not found338478898#942#128#0(6@47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m338478894#137#0#137#0#35"method definition for '*' not found0(0#0#47"/Users/jklobe/Desktop/A50PriceChart/APIEngine.m8610441472#2007"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/APIEngine.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/APIEngine.o1#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.886303
+e338478898.006827
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m338478897#338478898#0(0"0(0#0#61"/Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m8625745472#2035"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIAuthenticationDialog.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIAuthenticationDialog.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.954456
+e338478898.012277
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m338478897#338478898#0(0"0(0#0#55"/Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m8623844256#2023"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDataCompressor.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataCompressor.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.955356
+e338478898.011517
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m338478897#338478898#0(0"0(0#0#57"/Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m8622738880#2027"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDataDecompressor.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDataDecompressor.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.955955
+e338478898.051216
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m338478897#338478898#0(0"0(0#0#54"/Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m8622100256#2021"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIDownloadCache.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIDownloadCache.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.006899
+e338478898.083352
+r0
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m:10:18: error: Utils.h: No such file or directory
+lSLF07#2@64"Compile /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m338478898#338478898#0(106"/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m:10:18: error: Utils.h: No such file or directory1(4@34"Utils.h: No such file or directory338478898#0#106#0(6@56"/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m338246778#10#0#10#0#28"*: No such file or directory0(0#0#56"/Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m8620489792#2025"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIFormDataRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIFormDataRequest.o1#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.011585
+e338478898.552992
+r0
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m:25:18: error: Utils.h: No such file or directory
+o{standard input}:23252:non-relocatable subtraction expression, "_progressLock" minus "L00000000098$pb"
+o{standard input}:23252:symbol: "_progressLock" can't be undefined in a subtraction expression
+o{standard input}:22585:non-relocatable subtraction expression, "_progressLock" minus "L00000000098$pb"
+o{standard input}:22585:symbol: "_progressLock" can't be undefined in a subtraction expression
+o{standard input}:20939:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"
+o{standard input}:20939:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:20633:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"
+o{standard input}:20633:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:20536:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"
+o{standard input}:20536:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:19976:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"
+o{standard input}:19976:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:19670:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"
+o{standard input}:19670:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:19573:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"
+o{standard input}:19573:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:18639:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000086$pb"
+o{standard input}:18639:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:14099:non-relocatable subtraction expression, "_progressLock" minus "L00000000066$pb"
+o{standard input}:14099:symbol: "_progressLock" can't be undefined in a subtraction expression
+o{standard input}:14073:non-relocatable subtraction expression, "_progressLock" minus "L00000000066$pb"
+o{standard input}:14073:symbol: "_progressLock" can't be undefined in a subtraction expression
+o{standard input}:10633:non-relocatable subtraction expression, "_ASIRequestTimedOutError" minus "L00000000045$pb"
+o{standard input}:10633:symbol: "_ASIRequestTimedOutError" can't be undefined in a subtraction expression
+o{standard input}:10174:non-relocatable subtraction expression, "_ASITooMuchRedirectionError" minus "L00000000042$pb"
+o{standard input}:10174:symbol: "_ASITooMuchRedirectionError" can't be undefined in a subtraction expression
+o{standard input}:5222:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000032$pb"
+o{standard input}:5222:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression
+o{standard input}:5087:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000032$pb"
+o{standard input}:5087:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression
+o{standard input}:4084:non-relocatable subtraction expression, "_ASIRequestCancelledError" minus "L00000000020$pb"
+o{standard input}:4084:symbol: "_ASIRequestCancelledError" can't be undefined in a subtraction expression
+o{standard input}:578:non-relocatable subtraction expression, "_ASITooMuchRedirectionError" minus "L00000000002$pb"
+o{standard input}:578:symbol: "_ASITooMuchRedirectionError" can't be undefined in a subtraction expression
+o{standard input}:539:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000002$pb"
+o{standard input}:539:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression
+o{standard input}:500:non-relocatable subtraction expression, "_ASIRequestCancelledError" minus "L00000000002$pb"
+o{standard input}:500:symbol: "_ASIRequestCancelledError" can't be undefined in a subtraction expression
+o{standard input}:461:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000002$pb"
+o{standard input}:461:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression
+o{standard input}:422:non-relocatable subtraction expression, "_ASIRequestTimedOutError" minus "L00000000002$pb"
+o{standard input}:422:symbol: "_ASIRequestTimedOutError" can't be undefined in a subtraction expression
+o{standard input}:292:non-relocatable subtraction expression, "_progressLock" minus "L00000000002$pb"
+o{standard input}:292:symbol: "_progressLock" can't be undefined in a subtraction expression
+lSLF07#2@60"Compile /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m338478898#338478898#0(4816"/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m:25:18: error: Utils.h: No such file or directory{standard input}:23252:non-relocatable subtraction expression, "_progressLock" minus "L00000000098$pb"{standard input}:23252:symbol: "_progressLock" can't be undefined in a subtraction expression{standard input}:22585:non-relocatable subtraction expression, "_progressLock" minus "L00000000098$pb"{standard input}:22585:symbol: "_progressLock" can't be undefined in a subtraction expression{standard input}:20939:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"{standard input}:20939:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:20633:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"{standard input}:20633:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:20536:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000094$pb"{standard input}:20536:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:19976:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"{standard input}:19976:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:19670:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"{standard input}:19670:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:19573:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000092$pb"{standard input}:19573:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:18639:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000086$pb"{standard input}:18639:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:14099:non-relocatable subtraction expression, "_progressLock" minus "L00000000066$pb"{standard input}:14099:symbol: "_progressLock" can't be undefined in a subtraction expression{standard input}:14073:non-relocatable subtraction expression, "_progressLock" minus "L00000000066$pb"{standard input}:14073:symbol: "_progressLock" can't be undefined in a subtraction expression{standard input}:10633:non-relocatable subtraction expression, "_ASIRequestTimedOutError" minus "L00000000045$pb"{standard input}:10633:symbol: "_ASIRequestTimedOutError" can't be undefined in a subtraction expression{standard input}:10174:non-relocatable subtraction expression, "_ASITooMuchRedirectionError" minus "L00000000042$pb"{standard input}:10174:symbol: "_ASITooMuchRedirectionError" can't be undefined in a subtraction expression{standard input}:5222:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000032$pb"{standard input}:5222:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression{standard input}:5087:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000032$pb"{standard input}:5087:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression{standard input}:4084:non-relocatable subtraction expression, "_ASIRequestCancelledError" minus "L00000000020$pb"{standard input}:4084:symbol: "_ASIRequestCancelledError" can't be undefined in a subtraction expression{standard input}:578:non-relocatable subtraction expression, "_ASITooMuchRedirectionError" minus "L00000000002$pb"{standard input}:578:symbol: "_ASITooMuchRedirectionError" can't be undefined in a subtraction expression{standard input}:539:non-relocatable subtraction expression, "_ASIUnableToCreateRequestError" minus "L00000000002$pb"{standard input}:539:symbol: "_ASIUnableToCreateRequestError" can't be undefined in a subtraction expression{standard input}:500:non-relocatable subtraction expression, "_ASIRequestCancelledError" minus "L00000000002$pb"{standard input}:500:symbol: "_ASIRequestCancelledError" can't be undefined in a subtraction expression{standard input}:461:non-relocatable subtraction expression, "_ASIAuthenticationError" minus "L00000000002$pb"{standard input}:461:symbol: "_ASIAuthenticationError" can't be undefined in a subtraction expression{standard input}:422:non-relocatable subtraction expression, "_ASIRequestTimedOutError" minus "L00000000002$pb"{standard input}:422:symbol: "_ASIRequestTimedOutError" can't be undefined in a subtraction expression{standard input}:292:non-relocatable subtraction expression, "_progressLock" minus "L00000000002$pb"{standard input}:292:symbol: "_progressLock" can't be undefined in a subtraction expression1(4@34"Utils.h: No such file or directory338478898#0#102#0(6@52"/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m338246781#25#0#25#0#28"*: No such file or directory0(0#0#52"/Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m8610198848#2017"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIHTTPRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIHTTPRequest.o1#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.012328
+e338478898.068767
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o
+x/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m338478898#338478898#0(0"0(0#0#52"/Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m8609063008#2017"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASIInputStream.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASIInputStream.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.051292
+e338478898.141442
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o
+x/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m338478898#338478898#0(0"0(0#0#53"/Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m8606276960#2019"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/ASINetworkQueue.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/ASINetworkQueue.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.141514
+e338478898.185205
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o
+x/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m338478898#338478898#0(0"0(0#0#54"/Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m8595776736#2021"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/GoogleDataObject.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/GoogleDataObject.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.083424
+e338478898.125445
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o
+x/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m338478898#338478898#0(0"0(0#0#49"/Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m8615272160#2011"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/HTTPRequest.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/HTTPRequest.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o /Users/jklobe/Desktop/A50PriceChart/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478898.068847
+e338478898.224195
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o
+x/Users/jklobe/Desktop/A50PriceChart/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jklobe/Desktop/A50PriceChart/Reachability.m338478898#338478898#0(0"0(0#0#50"/Users/jklobe/Desktop/A50PriceChart/Reachability.m8622119072#2013"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/Reachability.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/Reachability.o0#
+
+CCompileC build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o /Users/jklobe/Desktop/A50PriceChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478897.867745
+e338478897.954383
+r1
+xCompileC
+xbuild/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o
+x/Users/jklobe/Desktop/A50PriceChart/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jklobe/Desktop/A50PriceChart/main.m338478897#338478897#0(0"0(0#0#42"/Users/jklobe/Desktop/A50PriceChart/main.m8623164960#1997"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -include /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch -c /Users/jklobe/Desktop/A50PriceChart/main.m -o /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+s338478894.872863
+e338478896.708830
+r1
+xCompileXIB
+x/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib
+lSLF07#2@42"CompileXIB A50PriceChartViewController.xib338478894#338478896#0(0"0(0#0#67"/Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib8627305504#597"    cd /Users/jklobe/Desktop/A50PriceChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChartViewController.nib /Users/jklobe/Desktop/A50PriceChart/A50PriceChartViewController.xib --sdk /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+s338478894.852440
+e338478896.708659
+r1
+xCompileXIB
+x/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338478894#338478896#0(0"0(0#0#50"/Users/jklobe/Desktop/A50PriceChart/MainWindow.xib8620803072#563"    cd /Users/jklobe/Desktop/A50PriceChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/MainWindow.nib /Users/jklobe/Desktop/A50PriceChart/MainWindow.xib --sdk /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app.dSYM /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart
+r0
+
+CLd /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/A50PriceChart normal i386
+r0
+
+CProcessInfoPlistFile /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist A50PriceChart-Info.plist
+s338478894.849017
+e338478894.852380
+r1
+xProcessInfoPlistFile
+x/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist
+xA50PriceChart-Info.plist
+lSLF07#2@32"Process A50PriceChart-Info.plist338478894#338478894#0(0"0(0#0#60"/Users/jklobe/Desktop/A50PriceChart/A50PriceChart-Info.plist8623405760#486"    cd /Users/jklobe/Desktop/A50PriceChart    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility A50PriceChart-Info.plist -genpkginfo /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app/Info.plist0#
+
+CProcessPCH /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch A50PriceChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s338478896.708906
+e338478897.867671
+r1
+xProcessPCH
+x/var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch
+xA50PriceChart_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile A50PriceChart_Prefix.pch338478896#338478897#0(0"0(0#0#60"/Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch8622854624#1886"    cd /Users/jklobe/Desktop/A50PriceChart    setenv LANG en_US.US-ASCII    setenv PATH "/xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode326/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode326/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /xcode326/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-generated-files.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-own-target-headers.hmap -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-all-target-headers.hmap -iquote /Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/A50PriceChart-project-headers.hmap -F/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator -I/Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/include -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources/i386 -I/Users/jklobe/Desktop/A50PriceChart/build/A50PriceChart.build/Debug-iphonesimulator/A50PriceChart.build/DerivedSources -c /Users/jklobe/Desktop/A50PriceChart/A50PriceChart_Prefix.pch -o /var/folders/jz/jzWP-WA9EleJwH+j3CSHG++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/A50PriceChart_Prefix-gmjwlzeeaidnwrfgvkpkwvmgvrzp/A50PriceChart_Prefix.pch.gch0#
+
+CTouch /Users/jklobe/Desktop/A50PriceChart/build/Debug-iphonesimulator/A50PriceChart.app
+r0
+
